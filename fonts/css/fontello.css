@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.woff2?34466698') format('woff2'), url('../font/fontello.woff?34466698') format('woff'), url('../font/fontello.ttf?34466698') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pencil:before {
+  content: '\e800';
+}
+.icon-user:before {
+  content: '\e801';
+}
+.icon-lock-filled:before {
+  content: '\e802';
+}
+.icon-chart-line:before {
+  content: '\e803';
+}
+.icon-star-empty:before {
+  content: '\e804';
+}
+.icon-wallet:before {
+  content: '\e805';
+}
+.icon-cancel:before {
+  content: '\e806';
+}
+.icon-ok:before {
+  content: '\e807';
+}
+.icon-picture:before {
+  content: '\e808';
+}
+.icon-cog:before {
+  content: '\e809';
+}
+.icon-gift-1:before {
+  content: '\e80a';
+}
+.icon-quote:before {
+  content: '\e80b';
+}
+.icon-edit:before {
+  content: '\e80c';
+}
+.icon-calendar:before {
+  content: '\e80d';
+}
+.icon-tag:before {
+  content: '\e80e';
+}
+.icon-grocery-store:before {
+  content: '\e81e';
+}
+.icon-rss:before {
+  content: '\f09e';
+}
+.icon-lightbulb:before {
+  content: '\f0eb';
+}
+.icon-angle-up:before {
+  content: '\f106';
+}
+.icon-angle-down:before {
+  content: '\f107';
+}
+.icon-desktop:before {
+  content: '\f108';
+}
+.icon-tablet:before {
+  content: '\f10a';
+}
+.icon-windows:before {
+  content: '\f17a';
+}
+.icon-linux:before {
+  content: '\f17c';
+}
+.icon-skype:before {
+  content: '\f17e';
+}
+.icon-lifebuoy:before {
+  content: '\f1cd';
+}
+.icon-hand-paper-o:before {
+  content: '\f256';
+}
+.icon-shopping-bag:before {
+  content: '\f290';
+}
+.icon-vimeo:before {
+  content: '\f306';
+}
+.icon-twitter:before {
+  content: '\f309';
+}
+.icon-facebook:before {
+  content: '\f30c';
+}
+.icon-gplus:before {
+  content: '\f30f';
+}
+.icon-pinterest:before {
+  content: '\f312';
+}
+.icon-tumblr:before {
+  content: '\f315';
+}
+.icon-dribbble:before {
+  content: '\f31b';
+}
+.icon-soundcloud:before {
+  content: '\f348';
+}
+.icon-comment:before {
+  content: '\f4ac';
+}
